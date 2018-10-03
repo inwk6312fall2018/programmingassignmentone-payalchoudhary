@@ -9,7 +9,7 @@ def newfile():
 		line = str (line.split())
 		line1 = line.replace("172","10")	#replacing 172 with 10
 		line2 = line1.replace("192","10")	#replacing 192 with 10
-		newfile.write(line2 + "\n")			#writing into new file
+		newfile.write(line2 + "\n")			#writing into new running configuration file
 	newfile.close()
 	file.close()
 	#reading from new file
